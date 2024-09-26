@@ -11,8 +11,6 @@ scalar_functions:
       If set to `ACCEPT_NULLS`, the result will be null if any argument passed to the concat function is null.
     impls:
       - args:
-          - value: "i8"
-            name: "x"
           - value: "varchar<L1>"
             name: "input"
         variadic:
